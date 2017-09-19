@@ -1,6 +1,6 @@
 public class Main {
   static {
-    System.loadLibrary("libmain-jni");
+    System.loadLibrary("main-jni");
   }
 
   private native int foo();

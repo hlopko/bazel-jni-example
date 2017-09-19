@@ -20,5 +20,6 @@ java_binary(
     srcs = [ "Main.java" ],
     main_class = "Main",
     resources = [ ":libmain-jni.so" ],
+    jvm_flags = [ "-Djava.library.path=bazel-bin/." ],
 )
 
